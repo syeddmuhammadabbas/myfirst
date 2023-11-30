@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function name(){
+            document.write(`Hello Hamza <br>`)
+        }
+        name()
+
+        function getName(fname,lname,edu){
+           document.write(`This is ${fname} ${lname} and he study in class
+        ${edu} <br>`)
+        }
+           getName('Hamza','Ali','Uni first year')
+
+           function sum(a,b){
+            document.write(`The sum of ${a} and ${b} is 
+            ${a+b} <br>`)
+           }
+           sum(22,5)
+            
+           function bio(name, age, city = 'no city'){
+            document.write(`Name ${name} <br> Age ${age} <br> city${city} <br>`)
+           }
+           bio('Hamza', 14, 'Karachi')
+
+           var msg = (name) => {
+            document.write("Hi"  +  name )
+           }
+           msg('Hamza')
+           var msg = (name) => {
+            document.write("Bye"  +  name)
+           }
+           msg('Hamza')
+           
+           
+        
+        
+    </script>
+</body>
+</html>
